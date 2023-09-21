@@ -85,6 +85,7 @@
     body {
         background:rgba(0, 0, 0, 0.7) url("https://developers.giphy.com/branch/master/static/api-512d36c09662682717108a38bbb5c57d.gif");
         background-blend-mode: darken;
+        overflow-x: hidden;
     }
     
     ul {
