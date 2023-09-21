@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./resources/logo.png">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+    <title>Gifer</title>
+</head>
+<body>
+
+
+    <header>
+        <img src="./resources/logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#gen-discover">Generator</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="landing">
+            <div class="generator">
+                <h2>Select a Catarogies:</h2>
+                <div id="catarogies">
+                    <div class="type">Memes</div>
+                    <div class="type">Gaming</div>
+                    <div class="type">Movies</div>
+                    <div class="type">Space</div>
+                    <div class="type">Trend</div>
+                    <div class="type">Random</div>
+                </div>
+
+                <div class="size">
+                    <h2>Select the size:</h2>
+                    <select id="selector">
+                        <option value="large">Large</option>
+                        <option value="medium">Medium</option>
+                        <option value="small">Small</option>
+                    </select>
+                </div>
+
+
+                <div class="numbers">
+                    <h2>Enter count:</h2>
+                    <div class="count">
+                        <i class="fa-solid fa-plus" id="plus"></i>
+                        <input type="number" id="count" value="5" min="1" max="20" readonly>
+                        <i class="fa-solid fa-minus" id="min"></i>
+                    </div>      
+                </div>
+
+                <div class="search">
+                    <input type="text" id="search-bar" placeholder="Enter a Keyword">
+                    <span class="bottom"></span>
+                    <span class="right"></span>
+                    <span class="top"></span>
+                    <span class="left"></span>
+                    <i class="fa-solid fa-circle-question" id="q-mark"></i>
+                </div>
+
+                <div class="btn">
+                    <button class="gen-btn">Generate</button>
+                </div>
+            </div>
+
+            <div class="gifs"></div>
+        </section>
+
+
+
+        <section id="gen-discover">
+            <h2>Try to generate a random GIFs from a random generator</h2>
+
+            <div class="samples">
+                <div class="mini-container2"><img class="sample" src="https://media2.giphy.com/media/hRLz2uLh5AX1zPsjOS/giphy.gif?cid=542ee94ek4n2rcdmfn8xrw489515gat6xgiac3b7x1bmq2p6&rid=giphy.gif&ct=g" alt="loading">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="mini-container2"><img class="sample" src="https://media2.giphy.com/media/hRLz2uLh5AX1zPsjOS/giphy.gif?cid=542ee94ek4n2rcdmfn8xrw489515gat6xgiac3b7x1bmq2p6&rid=giphy.gif&ct=g" alt="loading">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="mini-container2"><img class="sample" src="https://media2.giphy.com/media/hRLz2uLh5AX1zPsjOS/giphy.gif?cid=542ee94ek4n2rcdmfn8xrw489515gat6xgiac3b7x1bmq2p6&rid=giphy.gif&ct=g" alt="loading">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="mini-container2"><img class="sample" src="https://media2.giphy.com/media/hRLz2uLh5AX1zPsjOS/giphy.gif?cid=542ee94ek4n2rcdmfn8xrw489515gat6xgiac3b7x1bmq2p6&rid=giphy.gif&ct=g" alt="loading">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="mini-container2"><img class="sample" src="https://media2.giphy.com/media/hRLz2uLh5AX1zPsjOS/giphy.gif?cid=542ee94ek4n2rcdmfn8xrw489515gat6xgiac3b7x1bmq2p6&rid=giphy.gif&ct=g" alt="loading">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="mini-container2"><img class="sample" src="https://media2.giphy.com/media/hRLz2uLh5AX1zPsjOS/giphy.gif?cid=542ee94ek4n2rcdmfn8xrw489515gat6xgiac3b7x1bmq2p6&rid=giphy.gif&ct=g" alt="loading">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="mini-container2"><img class="sample" src="https://media2.giphy.com/media/hRLz2uLh5AX1zPsjOS/giphy.gif?cid=542ee94ek4n2rcdmfn8xrw489515gat6xgiac3b7x1bmq2p6&rid=giphy.gif&ct=g" alt="loading">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="mini-container2"><img class="sample" src="https://media2.giphy.com/media/hRLz2uLh5AX1zPsjOS/giphy.gif?cid=542ee94ek4n2rcdmfn8xrw489515gat6xgiac3b7x1bmq2p6&rid=giphy.gif&ct=g" alt="loading">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about">
+            <h1 class="special-heading">About</h1>
+            <div class="inabout">
+                <div class="about-container-img">
+                    <img src="./resources/cat-space.gif" alt="about-us">
+                </div>
+    
+    
+                <div class="about-container-p">
+                   <p>Gifer website is a GIFs generator website that depend on public API from <a href="https://giphy.com/" target="_blank">Giphy.com</a>, it has a filter box to get options from the user and generate GIFs depending on these options, the generator has certain catagories that user can select from it or typing in the search</p>
+                   <hr>
+                   <p>box for something more specific, the generated GIFs can be downloaded or copy it link to the clipboard so easy, this website does not belong to any specific company or any person, and it is just a show skills project built using standred web techniques.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="special-heading">Contact</h2>
+            <p id="stp">We are Creative</p>
+
+            <div class="mail">
+
+            <h1>For paid promotion drop a line at:</h1>
+            <address><a href="mailto:alsahq70@gmail.com">alsahq70@gmail.com</a></address>
+            <h1>Find Us On Social Networks</h1>
+
+             <div class="social">
+                <i class="fab fa-whatsapp" title="whatsapp"></i>
+                <i class="fab fa-facebook-f" title="facebook"></i>
+                <i class="fab fa-instagram" title="Instagram"></i>
+             </div>
+        </section>
+    </main>
+
+    <footer>
+        <h1>Made with &hearts; by Mohammed Kasim <sup>©</sup> <strong id="year"></strong></h1>
+    </footer>
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+<script src="https://unpkg.com/kursor"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.32/dist/sweetalert2.all.min.js" integrity="sha256-bdzpgx4rIB/e4FJRNveqYCLZWEgcKyal3W9CQHNiZ3k=" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+</body>
+</html>
