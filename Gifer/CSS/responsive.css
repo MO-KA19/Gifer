@@ -1,0 +1,265 @@
+@media (max-width:1440px) {
+    .gen-btn {
+        width: 570px;
+    }
+
+    .gif {
+        width: 250px;
+        height: 250px;
+        border-radius: 6px;
+        transition: all 0.4s;
+    }
+
+    .gifs {
+        width: 720px;
+    }
+
+    .about-container-img img {
+        width: 450px;
+        height: 450px;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width:1400px) {
+    .landing {
+        flex-direction: column;
+    }
+
+    .generator {
+        margin: 32px auto;
+    }
+
+    .gif {
+        width: 350px;
+        height: 350px;
+        border-radius: 6px;
+        transition: all 0.4s;
+    }
+
+    .gifs {
+        margin: 50px auto;
+        width: fit-content;
+        padding: 0;
+
+    }
+
+    nav ul li >  a {
+        font-size: 20px;
+        padding: 18px;
+        margin: 24px;
+        color: var(--white);
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .about-container-img img {
+        width: 400px;
+        height: 400px;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width:900px) {
+    nav ul {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        font-size: 50px;
+        color: #A91079;
+    }
+
+    .logo {
+        height: 120px;
+    }
+
+    .gif {
+        width: 350px;
+        height: 350px;
+    }
+
+    .mini-container2 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .mini-container2 img {
+        width: 330px;
+        height: 330px;
+    }
+
+    .inabout {
+        flex-direction: column-reverse;
+    }
+
+    .about-container-p {
+        width: 100%;
+        padding: 24px;
+    }
+}
+
+@media (max-width:768px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .generator {
+        height: 750px;
+    }
+
+    .catagories {
+        margin: 0;
+    }
+
+    .catagories ul {
+        width: 350px;
+        flex-wrap: wrap;
+    }
+
+    .catagories ul li {
+        padding: 16px;
+        width: 100px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .size, .numbers, .search, .gen-btn {
+        width: 450px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #selector, .count {
+        margin: 0;
+    }
+
+    .generator h2 {
+        font-size: 20px;
+    }
+
+    .gif {
+        width: 300px;
+        height: 300px;
+    }
+
+    .count input[type="number"] {
+        width: 50px;
+    }
+
+    .gifs {
+        overflow-y: unset;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .search input[type="text"] {
+        width: 350px;
+    }
+
+    .generator h2 {
+        font-size: 20px;
+        margin: 24px;
+    }
+
+    .q-mark {
+        display: none;
+    }
+
+    .generator {
+        height: 750px;
+        width: 550px;
+    }
+
+    .generator {
+        align-items: center;
+    }
+
+    .about-container-img img {
+        width: 400px;
+        height: 400px;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width:450px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    .swal2-container.swal2-top>.swal2-popup {
+        grid-column: 2;
+        align-self: start;
+        justify-self: center;
+    }
+
+    .swal2-container.swal2-top>.swal2-popup {
+        grid-column: 2;
+        align-self: start;
+        justify-self: center;
+        margin: 14px auto;
+        width: 350px;
+    }
+
+    .mini-container2 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .mini-container2 img {
+        width: 350px;
+        height: 350px;
+    }
+
+    #gen-discover h2 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .generator {
+        width: fit-content;
+    }
+
+    .size, .numbers, .search, .gen-btn {
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    
+    .about-container-p p {
+        text-align: left;
+        color: var(--txt);
+        line-height: 32px;
+        margin: 0;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .about-container-img img {
+        width: 350px;
+        height: 350px;
+        border-radius: 6px;
+    }
+
+    .mail h2 {
+        font-size: 20px;
+    }
+
+    address a {
+        font-size: 16px;
+    }
+
+
+    footer h1 {
+        font-size: 14px;
+    }
+}
